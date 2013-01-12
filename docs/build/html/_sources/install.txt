@@ -24,6 +24,22 @@ From source
     git clone https://bitbucket.org/zalew/pybbm-extensions
     cd pybbm-extensions
     ./setup.py install
+    
+    
+Settings
+---------
+
+.. code-block:: python
+
+    INSTALLED_APPS = (
+        ...
+        'pybb_extensions.pluggable',
+    )
+
+.. code-block:: shell
+
+    ./manage.py syncdb
+    
 
 Dependencies
 ------------

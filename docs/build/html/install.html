@@ -25,6 +25,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="PyBBm Extensions 0.1 documentation" href="index.html" />
+    <link rel="next" title="Extensions" href="extensions.html" />
     <link rel="prev" title="PyBBm Extensions documentation" href="index.html" /> 
   </head>
   <body>
@@ -34,6 +35,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="extensions.html" title="Extensions"
+             accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="index.html" title="PyBBm Extensions documentation"
              accesskey="P">previous</a> |</li>
@@ -64,6 +68,17 @@ cd pybbm-extensions
 ./setup.py install</pre>
 </div>
 </div>
+<div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="o">...</span>
+    <span class="s">&#39;pybb_extensions.pluggable&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-shell"><pre>./manage.py syncdb</pre>
+</div>
+</div>
 <div class="section" id="dependencies">
 <h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -88,6 +103,7 @@ cd pybbm-extensions
 <li><a class="reference internal" href="#">Installation</a><ul>
 <li><a class="reference internal" href="#using-pip">Using PIP</a></li>
 <li><a class="reference internal" href="#from-source">From source</a></li>
+<li><a class="reference internal" href="#settings">Settings</a></li>
 <li><a class="reference internal" href="#dependencies">Dependencies</a></li>
 <li><a class="reference internal" href="#upgrading">Upgrading</a></li>
 </ul>
@@ -97,6 +113,9 @@ cd pybbm-extensions
   <h4>Previous topic</h4>
   <p class="topless"><a href="index.html"
                         title="previous chapter">PyBBm Extensions documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="extensions.html"
+                        title="next chapter">Extensions</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/install.txt"
@@ -125,6 +144,9 @@ cd pybbm-extensions
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="extensions.html" title="Extensions"
+             >next</a> |</li>
         <li class="right" >
           <a href="index.html" title="PyBBm Extensions documentation"
              >previous</a> |</li>
