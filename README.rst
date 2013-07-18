@@ -1,6 +1,14 @@
 PyBBm Extensions
 =================
 
+.. image:: https://pypip.in/v/pybbm-extensions/badge.png
+    :target: https://crate.io/packages/pybbm-extensions/
+    :alt: Latest PyPI version
+
+.. image:: https://pypip.in/d/pybbm-extensions/badge.png
+    :target: https://crate.io/packages/pybbm-extensions/
+    :alt: Number of PyPI downloads 
+
 Extensions for PyBBm forum.
 
 Docs
